@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, intial-scale=1">
+	<!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="bootstrap css.css">
+	<script>
+function change_image() {
+        var image = document.getElementById("picture");
+	    if (image.alt == "Python Runner Game Project" ) {
+        image.src = "Python2.png";
+		image.alt = "Picture 2";
+		}   
+	    else {
+		image.src = "Screenshot.png";
+		image.alt = "Python Runner Game Project";
+		}
+}	
+</script>
+<style>
+body {
+    background-color: #85c9a9;
+}
+
+h1 {
+    color: #668484;
+    margin-left: 40px;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+} 
+p  {
+    color: #194747;
+	margin-left: 10px;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: 20px;
+}
+</style>
+  </head>
+  <body>
+    <div class="container">
+    </div>
+	  <div class="jumbotron">
+    <h1>Python</h1> 
+    <p>By:Shreya S.</p> 
+  </div>
+  <!NAV BAR>
+  <nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">My Portfolio</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="MyPortfolio.html">HOME</a></li>
+      <li><a href="Python.html">Python</a></li>
+      <li><a href="Scratch.html">Scratch</a></li>
+	  <li><a href="#">Robotics</a></li>
+	  <li><a href="Map.html">Map</a></li>
+    </ul>
+  </div>
+  <!TEXT>
+  <p>PYTHON</p> 
+  <p>This is a snippet of the runner game project that we created in class in the third week of Girls Who Code. It was challenging at first, but we finally conquered it!</p> 
+	<! Alternating image>
+<h2>My Python Project</h2>
+	<img id = "picture" src="Screenshot.png" alt="Python Runner Game Project" style="width:500px;height:252px;" >
+	<button id="btn" onclick ="change_image()">Click me!</button>
+	<div class=" Basic Well">My Portfolio</div>
+  </body>
+</html>
